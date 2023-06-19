@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+  </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-5">
+                                <h3 class=" fw-bolder  heading1">Crime Reporting</h3>
+                            </div>
+                            <div class="col-5 d-flex justify-content-start align-items-center ">
+                                <button class="m-1 services fw-bolder btn">
+                  <img class="custom-icon" src="group-7@3x.png" alt="Custom Icon"> Request Services
+                </button>
+                                <button class="m-1 services fw-bolder btn">
+                                    <img class="custom-icon" src="group-7-2@3x.png" alt="Custom Icon">
+                                    Create Chat room</button>
+                            </div>
+                            <div class="col-2 d-flex justify-content-end align-items-center"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">Close</span>
+                              </button></div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-5">
+                                <p class="fw-light date_time ">Incident Date & Time</p>
+                                <p class="date_time fw-bold ">Saturday, 3 June 2023 - 1:39am</p>
+                                <p class="mt-4 fw-light">Incident Location</p>
+                                <p class="incident">Bakery Chowk, Railway Carriage Factory Rd, Railway Scheme 7, Rawalpindi, Punjab Pakistan</p>
+                                <div class="col">
+                                    <button class="btn btn-light">
+                                        <i class="fas fa-map-marker-alt p-2 location_btn"></i> View on Google Map
+                                      </button>
+                                    <button class="btn btn-light">
+                                        <i class="fas fa-directions p-2 location_btn"></i> Get Directions
+                                      </button>
+                                </div>
+                                <div class="line-wrapper"></div>
+                                <div>
+                                    <h4 class="fw-bold">Members</h4>
+                                    <div class="">
+                                        <img class="m-1 thmb" src="../Downloads/images.png" alt="">
+                                        <span>Bot 1</span>
+                                        <br>
+                                        <img class="m-1 thmb" src="../Downloads/images.png" alt="">
+                                        <span>Bot 2</span>
+                                    </div>
+                                </div>
+                                <div class="line-wrapper"></div>
+                                <h4 class="fw-bold">Incident Reports</h4>
+                                <div>
+                                    <div id="cardCarousel" class="carousel slide carosal" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <button class="btn btn-sm btn-warning m-2">Status: Open</button>
+                                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <button class="btn btn-sm btn-warning m-2">Status: Open</button>
+                                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Add more carousel items as needed -->
+                                        </div>
+                                        <a class="carousel-control-next" href="#cardCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only next">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7">
+                                <img class="video" src="./st,small,845x845-pad,1000x1000,f8f8f8.u4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#showCardButton').click(function() {
+                $('.card-slider').slideToggle();
+            });
+        });
+    </script>
+</body>
+
+</html>

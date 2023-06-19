@@ -1,0 +1,147 @@
+body {
+    margin: 2rem;
+    background-color: #FFFF;
+    font-family: "GoogleSans", Regular, ;
+    font-weight: normal;
+    /* font-size: 2.7pt; */
+    /* text-align: center; */
+    line-height: 1rem;
+}
+
+.date_time {
+    margin: 0;
+}
+
+.line-wrapper {
+    position: relative;
+    width: 0.7cm;
+    height: 3px;
+    background-color: #000;
+    margin-top: 10px;
+    margin: 4rem 0;
+    border-radius: 9px;
+}
+
+.location_button {
+    margin-top: 10px;
+}
+
+img.thmb {
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+}
+
+.card-slider {
+    display: none;
+}
+
+.carosal {
+    width: 18rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+}
+
+.carousel-control-prev {
+    left: 1px;
+    width: 1.5rem;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #F2F2F2;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+img #chat {
+    color: #EC1C26;
+}
+
+.custom-icon {
+    width: 20px;
+    height: 20px;
+    fill: red;
+}
+
+
+/* .line-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(45deg);
+} */
+
+.card {
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    border: none;
+    height: auto;
+    margin: 0.4rem;
+}
+
+.carosal {
+    padding: 0.7rem;
+    margin: 0.3rem;
+}
+
+.services {
+    color: #EC1C26;
+    background-color: #E6E6E6;
+    border-radius: 2rem;
+    border: none;
+    margin-left: 0;
+    font-size: 6.7pt;
+}
+
+.incident {
+    width: 80%;
+}
+
+.close {
+    border: none;
+    padding: 0.3rem 1.3rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.video {
+    width: 40rem;
+    height: 50%;
+    margin: 2rem;
+}
+
+.modal-dialog {
+    max-width: 80%;
+    height: auto;
+    /* margin: 1.75rem auto; */
+    border-radius: 20px;
+}
+
+.modal-content {
+    min-height: calc(100vh - 200px);
+    overflow-y: auto;
+    padding: 1.5rem;
+}
